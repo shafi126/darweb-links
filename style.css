@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  background: url("./image/475526.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+.l-heading {
+  color: white;
+  padding: 0.5rem;
+  font-family: "Akronim", cursive;
+  padding-bottom: 0.625rem;
+}
+.l1 {
+  font-size: 7.5rem;
+  padding-top: 5rem;
+  padding-left: 4.1875rem;
+}
+.l2 {
+  font-size: 3.75rem;
+  padding-left: 9.875rem;
+}
+.l1:hover {
+  color: red;
+  transition: 500ms ease;
+  transform-origin: bottom;
+}
+.l2:hover {
+  color: purple;
+  transition: 500ms ease;
+  transform-origin: bottom;
+}
+.buttons {
+  padding-top: 1.75rem;
+  padding-left: 6.5rem;
+}
+.l-link {
+  color: black;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 0.7rem;
+  margin-right: 1.875rem;
+  font-family: "Noto Sans Mono", monospace;
+}
+.ln1 {
+  background: red;
+}
+.ln2 {
+  background: purple;
+}
+.ln3 {
+  background: royalblue;
+  margin-left: 5rem;
+}
+.l-link:hover {
+  color: white;
+  background: black;
+  transition: 0.7s;
+  transform-origin: left;
+}
+.l3 {
+  padding-top: 2.425rem;
+  padding-left: 8rem;
+  color: gray;
+}
+@media screen and (max-width: 1025px) {
+  .main-container {
+    background-size: cover;
+  }
+  .left-container {
+    justify-content: center;
+    align-items: center;
+  }
+  .l1 {
+    font-size: 3.5rem;
+    padding-top: 5rem;
+    padding-left: 0px;
+  }
+  .l2 {
+    font-size: 1.75rem;
+    padding-left: 0px;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.75rem;
+    padding-left: 0px;
+  }
+  .l-link {
+    color: black;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 0.7rem;
+    margin-right: 0px;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 0.825rem;
+  }
+  .ln1 {
+    margin-bottom: 1.75rem;
+  }
+  .ln3 {
+    background: royalblue;
+    margin-left: 0px;
+  }
+  .l3 {
+    padding-top: 2.425rem;
+    padding-left: 0px;
+    color: gray;
+  }
+}
